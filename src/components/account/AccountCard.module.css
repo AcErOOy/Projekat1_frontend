@@ -1,0 +1,42 @@
+/* w-75 p-10 flex flex-row align-item-center  */
+.wrapper {
+  width: 45%;
+  padding: 2% 5% 0% 5%;
+  margin-top: 1%;
+  border: 1px solid black;
+  background-color: rgba(101, 129, 252, 1);
+}
+.accountCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.ajdi {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.picture {
+  padding: 5%;
+  margin: 5%;
+}
+.usernameTitle {
+  padding: 5%;
+  margin: 1%;
+  border-top: 1px solid black;
+}
+.infoContain {
+  padding: 5% 5%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.infoContain > div {
+  margin-bottom: 7px;
+}

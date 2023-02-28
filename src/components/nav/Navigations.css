@@ -1,0 +1,9 @@
+.ant-menu-horizontal {
+  display: flex;
+  justify-content: center;
+}
+.disabled-link {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+

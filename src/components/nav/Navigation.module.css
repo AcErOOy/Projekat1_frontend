@@ -1,0 +1,9 @@
+.auntMenuHorizontal {
+  display: flex !important;
+  justify-content: center;
+  max-height: 7vh;
+}
+.disabledLink {
+  pointer-events: none;
+  cursor: not-allowed;
+}
